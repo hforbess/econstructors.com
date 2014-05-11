@@ -1,0 +1,11 @@
+<?PHP
+    namespace Forbess\ArticlesBundle\Document;
+    class Article
+    {
+        protected $title;
+        protected $teaser;
+        protected $content;
+        protected $date_entered;
+   
+   }
+?>

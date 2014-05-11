@@ -1,0 +1,10 @@
+Forbess\ArticlesBundle\Document\Article:
+    fields:
+        id:
+            id:  true
+        title:   
+            type: string
+        teaser:
+            type: string
+        date_entered:
+            type: timestamp

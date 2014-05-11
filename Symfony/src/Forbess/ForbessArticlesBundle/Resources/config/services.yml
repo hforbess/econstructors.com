@@ -1,0 +1,7 @@
+parameters:
+#    forbess_articles.example.class: Forbess\ForbessArticlesBundle\Example
+
+services:
+#    forbess_articles.example:
+#        class: %forbess_articles.example.class%
+#        arguments: [@service_id, "plain_value", %parameter%]

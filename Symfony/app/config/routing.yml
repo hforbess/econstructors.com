@@ -1,0 +1,8 @@
+acme_store:
+    resource: "@AcmeStoreBundle/Resources/config/routing.php"
+    prefix:   /
+
+forbess_articles:
+    resource: "@ForbessArticlesBundle/Resources/config/routing.php"
+    prefix:   /
+
