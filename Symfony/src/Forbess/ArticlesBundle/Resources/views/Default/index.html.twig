@@ -1,6 +1,13 @@
-hi
-
+{% extends '::base.html.twig' %}
+{%block title %} eConstructors {% endblock %}
+{%block body %}
+<div id="articles">
 {% for article in articles %}
+  <article>
 <h2>{{  article.title }} </h2>
 <p>{{ article.teaser }} </p>
+
+</article> 
 {% endfor %}
+</articles>
+{% endblock %}

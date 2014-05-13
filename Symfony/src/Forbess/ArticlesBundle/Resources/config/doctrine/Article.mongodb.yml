@@ -7,4 +7,4 @@ Forbess\ArticlesBundle\Document\Article:
         teaser:
             type: string
         date_entered:
-            type: timestamp
+            type: date 

@@ -44,7 +44,7 @@ class DefaultController extends Controller
           $article->setTitle( $request_arr['form']['title'] );
           $article->setTeaser( $request_arr['form']['teaser'] ); 
           $article->setContent( $request_arr['form']['content'] ); 
-          $article->setDateEntered = '2014-05-11 14:32:22';
+          $article->setDateEntered = time(); 
           $dm = $this->get('doctrine_mongodb')->getManager();
           $dm->persist($article);
           $dm->flush();

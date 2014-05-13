@@ -14,8 +14,8 @@ _main:
     resource: routing.yml
 
 # AcmeDemoBundle routes (to be removed)
-_acme_demo:
-    resource: "@AcmeDemoBundle/Resources/config/routing.yml"
+#_acme_demo:
+#    resource: "@AcmeDemoBundle/Resources/config/routing.yml"
 
 create_product:
     path:    /create
@@ -27,5 +27,5 @@ new_article:
     path:   /articles/new
     defaults:    { _controller:ForbessArticlesBundle:Default:new }
 index_articles:
-    path:   /articles/index
+    pattern: /
     defaults:    { _controller:ForbessArticlesBundle:Default:index }
