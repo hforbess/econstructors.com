@@ -1,0 +1,29 @@
+header {
+
+     width:80%;
+     background-color:#3BA3D0;
+     color:#024A68;
+     font-size:4em;
+     margin:0 auto;
+
+}
+body { 
+    font-family:helvetica;
+    background-color:#63AFD0;
+}
+
+article {
+    width:60%;
+    margin: 0 auto
+
+}
+
+#title {
+
+  margin: 0 auto;
+}
+#articles{
+    background-color:white;
+    color:black;
+    margin: 0 auto;
+}
